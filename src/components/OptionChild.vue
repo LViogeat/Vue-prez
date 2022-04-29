@@ -32,3 +32,10 @@ export default {
         <button @click="sendRandomNumber()">Chiffre aléatoire</button>
     </div>
 </template>
+
+<style scoped lang="scss">
+
+
+
+</style>
+

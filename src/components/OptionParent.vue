@@ -27,7 +27,7 @@ export default {
           dislikes: 60
         }        
       ],
-      success: 'rgb(6, 156, 6)',
+      success: '$primary',
       danger: 'rgb(216, 4, 4)',
     }
   },
@@ -75,7 +75,7 @@ export default {
       </div>
       <div class="textEmit" style="margin-bottom: 2rem;">
         <div style="display: flex;">
-          <input type="text" v-model="parentText">
+          <!--input type="text" v-model="parentText"-->
           <p>{{randomNumber}}</p>
         </div>
         <p> Parent text : {{ parentText }}</p>
@@ -97,7 +97,12 @@ export default {
 
 </template>
 
-<style lang="css">
+<style scoped lang="scss">
+
+$primary: green;
+
+
+
   .container {
     display: flex;
     justify-content: space-between;

@@ -76,7 +76,7 @@
         </div>
         <div class="textEmit" style="margin-bottom: 2rem;">
           <div style="display: flex;">
-            <input type="text" v-model="parentText">
+            <!--input type="text" v-model="parentText"-->
             <p>{{randomNumber}}</p>
           </div>
           <p> Parent text : {{ parentText }}</p>
